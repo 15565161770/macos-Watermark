@@ -28,7 +28,7 @@
     
     
     // 初始化watermark view
-   WatermarkView_ss *view = [WatermarkView_ss initwithFrame:CGRectMake((self.view.bounds.size.width - 900) / 2,(self.view.bounds.size.height - 600) / 2, 900, 600) showTitle:@"根据高度计算显示的列数" titleColor:[NSColor purpleColor] backgroundColor:[NSColor yellowColor]];
+   WatermarkView_ss *view = [WatermarkView_ss initwithFrame:CGRectMake((self.view.bounds.size.width - 900) / 2,(self.view.bounds.size.height - 600) / 2, 900, 600) showTitle:@"根据传入字体的长度计算显示列数" titleColor:[NSColor purpleColor] backgroundColor:[NSColor yellowColor]];
         [self.view addSubview:view];
 }
 
