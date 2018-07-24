@@ -26,15 +26,17 @@
     // 设置背景颜色
     [views setWantsLayer:YES];
     views.layer.backgroundColor = backgroundColor.CGColor;
+    // 获取字体的size
+    CGSize titleSize =[title sizeWithAttributes:@{NSFontAttributeName:[NSFont systemFontOfSize:12.0]}];
     // 根据绘制区域大小设置行列
-    float row =frameDrew.size.width / KWatermarkWidth;// 行
-    float col = frameDrew.size.height/ KWatermarkWidth;// 列
+    float row =frameDrew.size.width / titleSize.width;// 行
+    float col = frameDrew.size.height/ titleSize.width;// 列
     // 创建一个18*10的水印区域
     // 如果宽度高度小于50则创建一个
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             // 创建单个水印
-    WatermarkViews *markView = [[WatermarkViews alloc]initWithFrame:CGRectMake(0 + i*KWatermarkWidth, 0+j*KWatermarkWidth, KWatermarkWidth, KWatermarkWidth)];
+    WatermarkViews *markView = [[WatermarkViews alloc]initWithFrame:CGRectMake(0 + i*titleSize.width, 0+j*titleSize.width, titleSize.width,titleSize.width)];
     markView.title = title;
     markView.titleColor = titleColor;
     [views addSubview:markView];
