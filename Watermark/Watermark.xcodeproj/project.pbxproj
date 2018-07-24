@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D716132105AF38000D9D70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D716122105AF38000D9D70 /* AppDelegate.m */; };
+		18D716152105AF38000D9D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D716142105AF38000D9D70 /* Assets.xcassets */; };
+		18D716182105AF38000D9D70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D716162105AF38000D9D70 /* MainMenu.xib */; };
+		18D7161B2105AF38000D9D70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7161A2105AF38000D9D70 /* main.m */; };
+		18D716242105AF4E000D9D70 /* WatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D716232105AF4E000D9D70 /* WatermarkView.m */; };
+		18D716272105C662000D9D70 /* WatermarkViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D716262105C662000D9D70 /* WatermarkViews.m */; };
+		18D7162A2105D3BA000D9D70 /* WatermarkViewss.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D716292105D3BA000D9D70 /* WatermarkViewss.m */; };
+		18D716312105DE8F000D9D70 /* WatermarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7162F2105DE8F000D9D70 /* WatermarkVC.m */; };
+		18D716322105DE8F000D9D70 /* WatermarkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D716302105DE8F000D9D70 /* WatermarkVC.xib */; };
+		18D716352105E0D5000D9D70 /* WatermarkView_ss.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D716342105E0D5000D9D70 /* WatermarkView_ss.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D7160E2105AF38000D9D70 /* Watermark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D716112105AF38000D9D70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D716122105AF38000D9D70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D716142105AF38000D9D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D716172105AF38000D9D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18D716192105AF38000D9D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D7161A2105AF38000D9D70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D7161C2105AF38000D9D70 /* Watermark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Watermark.entitlements; sourceTree = "<group>"; };
+		18D716222105AF4E000D9D70 /* WatermarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatermarkView.h; sourceTree = "<group>"; };
+		18D716232105AF4E000D9D70 /* WatermarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkView.m; sourceTree = "<group>"; };
+		18D716252105C662000D9D70 /* WatermarkViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatermarkViews.h; sourceTree = "<group>"; };
+		18D716262105C662000D9D70 /* WatermarkViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkViews.m; sourceTree = "<group>"; };
+		18D716282105D3BA000D9D70 /* WatermarkViewss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatermarkViewss.h; sourceTree = "<group>"; };
+		18D716292105D3BA000D9D70 /* WatermarkViewss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkViewss.m; sourceTree = "<group>"; };
+		18D7162E2105DE8F000D9D70 /* WatermarkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatermarkVC.h; sourceTree = "<group>"; };
+		18D7162F2105DE8F000D9D70 /* WatermarkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkVC.m; sourceTree = "<group>"; };
+		18D716302105DE8F000D9D70 /* WatermarkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatermarkVC.xib; sourceTree = "<group>"; };
+		18D716332105E0D5000D9D70 /* WatermarkView_ss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatermarkView_ss.h; sourceTree = "<group>"; };
+		18D716342105E0D5000D9D70 /* WatermarkView_ss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermarkView_ss.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D7160B2105AF38000D9D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D716052105AF38000D9D70 = {
+			isa = PBXGroup;
+			children = (
+				18D716102105AF38000D9D70 /* Watermark */,
+				18D7160F2105AF38000D9D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D7160F2105AF38000D9D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D7160E2105AF38000D9D70 /* Watermark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D716102105AF38000D9D70 /* Watermark */ = {
+			isa = PBXGroup;
+			children = (
+				18D716112105AF38000D9D70 /* AppDelegate.h */,
+				18D716122105AF38000D9D70 /* AppDelegate.m */,
+				18D7162E2105DE8F000D9D70 /* WatermarkVC.h */,
+				18D7162F2105DE8F000D9D70 /* WatermarkVC.m */,
+				18D716302105DE8F000D9D70 /* WatermarkVC.xib */,
+				18D716332105E0D5000D9D70 /* WatermarkView_ss.h */,
+				18D716342105E0D5000D9D70 /* WatermarkView_ss.m */,
+				18D716362105E0E4000D9D70 /* WatermarkView */,
+				18D716142105AF38000D9D70 /* Assets.xcassets */,
+				18D716162105AF38000D9D70 /* MainMenu.xib */,
+				18D716192105AF38000D9D70 /* Info.plist */,
+				18D7161A2105AF38000D9D70 /* main.m */,
+				18D7161C2105AF38000D9D70 /* Watermark.entitlements */,
+			);
+			path = Watermark;
+			sourceTree = "<group>";
+		};
+		18D716362105E0E4000D9D70 /* WatermarkView */ = {
+			isa = PBXGroup;
+			children = (
+				18D716222105AF4E000D9D70 /* WatermarkView.h */,
+				18D716232105AF4E000D9D70 /* WatermarkView.m */,
+				18D716252105C662000D9D70 /* WatermarkViews.h */,
+				18D716262105C662000D9D70 /* WatermarkViews.m */,
+				18D716282105D3BA000D9D70 /* WatermarkViewss.h */,
+				18D716292105D3BA000D9D70 /* WatermarkViewss.m */,
+			);
+			path = WatermarkView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D7160D2105AF38000D9D70 /* Watermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D7161F2105AF38000D9D70 /* Build configuration list for PBXNativeTarget "Watermark" */;
+			buildPhases = (
+				18D7160A2105AF38000D9D70 /* Sources */,
+				18D7160B2105AF38000D9D70 /* Frameworks */,
+				18D7160C2105AF38000D9D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermark;
+			productName = Watermark;
+			productReference = 18D7160E2105AF38000D9D70 /* Watermark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D716062105AF38000D9D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TW;
+				TargetAttributes = {
+					18D7160D2105AF38000D9D70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D716092105AF38000D9D70 /* Build configuration list for PBXProject "Watermark" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D716052105AF38000D9D70;
+			productRefGroup = 18D7160F2105AF38000D9D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D7160D2105AF38000D9D70 /* Watermark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D7160C2105AF38000D9D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D716152105AF38000D9D70 /* Assets.xcassets in Resources */,
+				18D716182105AF38000D9D70 /* MainMenu.xib in Resources */,
+				18D716322105DE8F000D9D70 /* WatermarkVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D7160A2105AF38000D9D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D7161B2105AF38000D9D70 /* main.m in Sources */,
+				18D716132105AF38000D9D70 /* AppDelegate.m in Sources */,
+				18D716242105AF4E000D9D70 /* WatermarkView.m in Sources */,
+				18D716312105DE8F000D9D70 /* WatermarkVC.m in Sources */,
+				18D716272105C662000D9D70 /* WatermarkViews.m in Sources */,
+				18D7162A2105D3BA000D9D70 /* WatermarkViewss.m in Sources */,
+				18D716352105E0D5000D9D70 /* WatermarkView_ss.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D716162105AF38000D9D70 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D716172105AF38000D9D70 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D7161D2105AF38000D9D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18D7161E2105AF38000D9D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18D716202105AF38000D9D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watermark/Watermark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Watermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloudscreen.Watermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D716212105AF38000D9D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watermark/Watermark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Watermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloudscreen.Watermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D716092105AF38000D9D70 /* Build configuration list for PBXProject "Watermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D7161D2105AF38000D9D70 /* Debug */,
+				18D7161E2105AF38000D9D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D7161F2105AF38000D9D70 /* Build configuration list for PBXNativeTarget "Watermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D716202105AF38000D9D70 /* Debug */,
+				18D716212105AF38000D9D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D716062105AF38000D9D70 /* Project object */;
+}
